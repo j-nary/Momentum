@@ -12,12 +12,16 @@
     - html파일은 css와 자바스크립트 파일을 가져옴.
 2. html, css 파일 연결
     
-    ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled.png)
+    <img width="927" alt="image" src="https://user-images.githubusercontent.com/83453646/220130722-4429902f-9ac6-438a-81c2-0f021b23e68d.png">
     
     - link태그 사용
 3. html, javascript 파일 연결
     
-    ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled%201.png)
+    ```jsx
+        <body>
+            <script src="app.js"></script>
+        </body>
+    ```
     
     - script 태그 사용
 
@@ -338,7 +342,7 @@ style에 적합한 도구 → CSS
 
 1. input
     
-    ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled%202.png)
+    <img width="975" alt="Untitled 2" src="https://user-images.githubusercontent.com/83453646/220131009-6672e887-062b-4a51-8a34-e31c871200b6.png">
     
     ```html
     <body>
@@ -474,7 +478,7 @@ style에 적합한 도구 → CSS
 1. Getting Username
     - 이름 입력 후 버튼 누르면 사라지게 하기
         
-        ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled%203.png)
+        <img width="785" alt="Untitled 3" src="https://user-images.githubusercontent.com/83453646/220131149-bf5c8dff-6f3a-47cb-91f1-f9dc5f2f5976.png">
         
     - 이름 저장
         
@@ -522,9 +526,10 @@ style에 적합한 도구 → CSS
         
         브라우저에 공짜로 뭔가를 기억할 수 있게 해주는 기능을 담은 API명
         
-        ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled%204.png)
+        <img width="564" alt="Untitled 4" src="https://user-images.githubusercontent.com/83453646/220131236-1fb252cb-53a4-45fc-8e15-1ee9c15d3908.png">
         
-        ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled%205.png)
+        <img width="489" alt="Untitled 5" src="https://user-images.githubusercontent.com/83453646/220131263-95af7d3d-af46-4ef6-86ad-05d80ebfbeb0.png">
+
         
     - setItem
         
@@ -538,7 +543,7 @@ style에 적합한 도구 → CSS
 3. Loading Username
     - username 유무 확인
         
-        ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled%206.png)
+        <img width="323" alt="Untitled 6" src="https://user-images.githubusercontent.com/83453646/220131333-a8690534-14fe-4765-9f17-98bd3f243139.png">
         
     - user 정보 기억하기
         
@@ -582,7 +587,7 @@ style에 적합한 도구 → CSS
 3. Dates
     - 오늘의 날짜, 시간 가져오기
         
-        ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled%207.png)
+        <img width="339" alt="Untitled 7" src="https://user-images.githubusercontent.com/83453646/220131366-273d8ac5-961e-4c44-b7e6-cb341f4a6dbd.png">
         
         - date.getDay() → 0 : 일요일을 의미, 리턴 타입 number
         - date.getFullYear()
@@ -606,7 +611,7 @@ style에 적합한 도구 → CSS
         
         string에 적용하는 속성
         
-        ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled%208.png)
+        <img width="217" alt="Untitled 8" src="https://user-images.githubusercontent.com/83453646/220131443-8c111bf9-2bb8-450c-abf0-5dc2cd3ae5a4.png">
         
         ```jsx
         function getClock() {
@@ -712,7 +717,7 @@ style에 적합한 도구 → CSS
     }
     ```
     
-    ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled%209.png)
+    <img width="231" alt="Untitled 9" src="https://user-images.githubusercontent.com/83453646/220131495-647b8804-0d59-465c-b456-d0461cf5a006.png">
     
 3. Deleting ToDos
     - click된 위치 찾기
@@ -839,7 +844,7 @@ style에 적합한 도구 → CSS
         span.innerText = newTodo.text;
     ```
     
-    ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled%2010.png)
+    <img width="400" alt="Untitled 10" src="https://user-images.githubusercontent.com/83453646/220131553-5c3ed498-7943-4a8a-95b1-aeba3e7e6cfc.png">
     
 3. filter 함수
     
@@ -885,7 +890,7 @@ style에 적합한 도구 → CSS
     - 위도, 경도의 숫자를 장소로 바꿔줄 서비스
     - network탭 : Wifi가 무슨 일을 하는 지 보여준다.
         
-        ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled%2011.png)
+        <img width="740" alt="Untitled 11" src="https://user-images.githubusercontent.com/83453646/220131603-f009230c-e1bb-48d6-b5fb-c648f71229b9.png">
         
     - 화씨온도 → 섭씨온도
         
@@ -911,6 +916,6 @@ style에 적합한 도구 → CSS
         
 3. Conclusions
     
-    ![Untitled](%E1%84%87%E1%85%A1%E1%84%82%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A1%20JS%E1%84%85%E1%85%A9%20%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A9%E1%86%B7%20%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5%20d7f7e71fc15f4c43b8837be903d6f851/Untitled%2012.png)
+    <img width="1440" alt="Untitled 12" src="https://user-images.githubusercontent.com/83453646/220131646-9a44d0fe-487c-45a3-a4a9-5f390263dd79.png">
     
     끝 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
