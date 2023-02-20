@@ -15,6 +15,10 @@ function saveToDos() {
 function deleteToDo(event) {
      const li = event.target.parentElement;
      li.remove();
+     toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id));
+     //toDo는 toDos에 있는 요소 중 하나
+     //li.id는 string, toDo.id는 number -> parseInt
+     saveToDos();
 }
 
 function paintToDo(newTodo) {
@@ -37,9 +41,9 @@ function handleToDoSubmit(event) {
     const newTodo = toDoInput.value;
     toDoInput.value = "";       //엔터누르면 사라지게
     
-    newTodoObj = {
+    const newTodoObj = {
         text: newTodo,
-        id: Date.new(),
+        id: Date.now(),
     };
 
     toDos.push(newTodoObj);
